@@ -17,10 +17,10 @@ export default {
                 return "Your Got Talent Kiddo..."
             }
             else if(this.score <= 450){
-                return "Wow Nigga!! That's Good..."
+                return "Wow!! That's Good..."
             }
             else{
-                return "Snail Pace Nigga...."
+                return "Snail Pace...."
             }
         }
     }
