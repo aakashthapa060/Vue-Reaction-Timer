@@ -1,5 +1,5 @@
 <template>
-  <h1>Nigga Reaction Timer </h1>
+  <h1>Reaction Timer </h1>
   <button @click="start" :disabled="isPlaying">Play</button>
   <Block v-if="isPlaying" :delay="delay" @end="endGame"/>
   <Result :showResults="showResults" :score="score"></Result>
